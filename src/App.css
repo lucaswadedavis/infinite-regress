@@ -25,3 +25,12 @@
 .svg-container {
   height: 200px;
 }
+
+.edgePath {
+  stroke: black;
+}
+
+.node rect {
+  fill: white;
+  stroke: black;
+}

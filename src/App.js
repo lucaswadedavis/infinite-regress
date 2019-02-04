@@ -6,17 +6,6 @@ const data = [10, 2, 2, 34];
 
 class App extends Component {
 
-  componentDidMount() {
-    console.log('console mount');
-  }
-
-  componentDidUpdate() {
-    console.log('console update');
-  }
-
-  renderSvg() {
-  }
-
   render() {
     return (
       <div className="App">
@@ -24,6 +13,7 @@ class App extends Component {
       </div>
     );
   }
+
 }
 
 export default App;
